@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+}
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+} 
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+ #main {
+    border: 1px solid rgb(233, 231, 231);
+    height: 100%;
+    padding: 0;
+    width: 600px;
+    font-family:  Arial, sans-serif;
+ }
+
+ #cover-container {
+    width: 600px;
+ }
+
+ .display-name {
+    font-size: 15px;
+ }
+
+ .tweet-count, .user-name, .joined-date, .following, .followers, .tweetText {
+    font-size: 13px;
+    font-weight: 200;
+    color: rgb(121, 119, 119);
+ }
+
+ .following-count, .follower-count {
+   display: inline-block;
+   font-size: 13px;
+ }
+
+ .tweetText {
+   color: black;
+ }
+
+ #user-avatar {
+   height: 120px;
+   width: 120px;
+   border-radius: 50%;
+   margin-top: -65px;
+   margin-left: -9px;
+   border: 4px solid white;
+ } 
+
+ .tweet-avatar-container {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+ }
+
+ #flex-container {
+   display: flex;
+ }
+
+ #avatar-container {
+  border-bottom: 1px solid rgb(233, 231, 231);
+  border-top: 1px solid rgb(233, 231, 231);
+  padding: 15px;
+  padding-right: 10px;
+  padding-top: 12px;
+ }
+
+ #tweet-container {
+  border-bottom: 1px solid rgb(233, 231, 231);
+  border-top: 1px solid rgb(233, 231, 231);
+  border-left: none;
+  width: 100%;
+  padding: 2px;
+  padding-top: 5px;
+ }
+ 
+ .tweet-display-name {
+   display: inline-block;
+ }
+
+ .profile-details {
+  padding-left: 15px;
+ }
+
+
+ 
